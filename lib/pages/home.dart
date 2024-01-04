@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:ocr_application/utils/routes.dart';
-import 'package:ocr_application/utils/scan.dart';
+import 'package:swift_lens_mobile/utils/routes.dart';
+import 'package:swift_lens_mobile/utils/scan.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
