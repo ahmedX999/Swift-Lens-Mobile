@@ -1,4 +1,4 @@
-name: swift_lens_mobile
+name: ocr_application
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -30,9 +30,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   image_picker: ^0.8.2
   flutter_tesseract_ocr: ^0.4.24
-  flutter_mobile_vision_2: ^0.1.9
+  flutter_mobile_vision_2: ^0.1.15
   flutter_easyloading: ^3.0.0
-  http: ^0.13.3
   
 
 
@@ -46,7 +45,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/ocr_image.png"
+  image_path: "assets/images/ocr_image.jpeg"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -91,3 +90,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+android:
+  uses-permission:
+    - android.permission.CAMERA

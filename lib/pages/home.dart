@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:swift_lens_mobile/utils/routes.dart';
-import 'package:swift_lens_mobile/utils/scan.dart';
+import 'package:ocr_application/utils/routes.dart';
+import 'package:ocr_application/utils/scan.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.all(60.0),
                     child: Image.asset(
-                      "assets/images/ocr_image.png",
+                      "assets/images/ocr_image.jpeg",
                       fit: BoxFit.contain,
                     ),
                   ),
